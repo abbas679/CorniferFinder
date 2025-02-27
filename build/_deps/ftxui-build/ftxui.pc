@@ -1,0 +1,9 @@
+prefix="C:/Program Files (x86)/CorniferFinder"
+libdir="C:/Program Files (x86)/CorniferFinder/lib"
+includedir="C:/Program Files (x86)/CorniferFinder/include"
+
+Name: ftxui
+Description: 
+Version: 4.1.1
+Cflags: -I${includedir}
+Libs: -L${libdir} -lftxui-component -lftxui-dom -lftxui-screen
